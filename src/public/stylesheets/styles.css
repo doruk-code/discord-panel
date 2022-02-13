@@ -1,0 +1,25 @@
+.my-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.custom-button {
+  width: 350px;
+}
+
+.my-logout-button {
+}
+
+.my-custom-button {
+}
+
+.level {
+  height: -1533px;
+}
+
+.footer {
+  margin-top: 21rem;
+  padding-bottom: 1rem;
+}

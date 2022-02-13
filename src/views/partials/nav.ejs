@@ -1,0 +1,33 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item">
+      <!-- (<%= discordId %>)-->
+      <h1>Hoşgeldin , <%= username %></h1>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item"> Ana Sayfa </a>
+
+      <a class="navbar-item" href="/src/views/documents.ejs">
+        Documents
+      </a>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <form action="/auth/logout">
+            <button
+              class="button is-primary is-rounded custom-button"
+              type="submit"
+            >
+              Çıkış Yap
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

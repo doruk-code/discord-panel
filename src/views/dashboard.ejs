@@ -1,0 +1,16 @@
+<%- include('partials/header') -%> <%- include('partials/nav') -%>
+
+<div>
+  <% guilds.forEach(guild => { %> <%- include('partials/guild', { guild }) -%>
+  <% }) %>
+</div>
+
+<%-include('partials/footer') -%>
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Created</strong> by
+      <a href="https://github.com/savilah">savilah</a>.
+    </p>
+  </div>
+</footer>
